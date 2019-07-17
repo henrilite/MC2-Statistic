@@ -54,6 +54,36 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2A41A50A22DF387400FF79EE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2AD4FBAE22D0849500E4ADCE /* BowlingStatistic.swift */,
+				2A02C8AB22DC89D000110CFF /* PopupCollectionViewCell.swift */,
+				2A02C8A922D8860400110CFF /* StatisticModel.swift */,
+				2AD4FBAC22D0833200E4ADCE /* StatisticChartView.swift */,
+				2A02C8A122D8680E00110CFF /* StatisticButton.swift */,
+				2A02C8A722D884B100110CFF /* Statistic.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2A41A50B22DF389E00FF79EE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2A8B831B22D07C6E004108E0 /* LaunchScreen.storyboard */,
+				2A8B831322D07C6D004108E0 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2A41A50C22DF38B700FF79EE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2A8B831122D07C6D004108E0 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		2A8B830322D07C6D004108E0 = {
 			isa = PBXGroup;
 			children = (
@@ -76,15 +106,9 @@
 			isa = PBXGroup;
 			children = (
 				2A8B830F22D07C6D004108E0 /* AppDelegate.swift */,
-				2A8B831122D07C6D004108E0 /* ViewController.swift */,
-				2AD4FBAE22D0849500E4ADCE /* BowlingStatistic.swift */,
-				2AD4FBAC22D0833200E4ADCE /* StatisticChartView.swift */,
-				2A8B831322D07C6D004108E0 /* Main.storyboard */,
-				2A02C8A122D8680E00110CFF /* StatisticButton.swift */,
-				2A02C8A722D884B100110CFF /* Statistic.swift */,
-				2A02C8A922D8860400110CFF /* StatisticModel.swift */,
-				2A02C8AB22DC89D000110CFF /* PopupCollectionViewCell.swift */,
-				2A8B831B22D07C6E004108E0 /* LaunchScreen.storyboard */,
+				2A41A50A22DF387400FF79EE /* Model */,
+				2A41A50B22DF389E00FF79EE /* View */,
+				2A41A50C22DF38B700FF79EE /* Controller */,
 				2A8B831E22D07C6E004108E0 /* Info.plist */,
 				2A8B831922D07C6E004108E0 /* Assets.xcassets */,
 				2A8B831622D07C6D004108E0 /* MC2_Statistic.xcdatamodeld */,
