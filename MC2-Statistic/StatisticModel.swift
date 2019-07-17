@@ -9,17 +9,18 @@
 import Foundation
 
 class StatisticModel {
+    
     var titleData = ["Total Game","Total Strike", "Right Handling", "Wrong Handling"]
     var valueNumberData = [["5","40","15","25"],["51","40","15","25"],["3","3","3","3"],["4","4","4","4"],["4","4","4","4"]]
     
+    var collectionNumber            = ["1","2","3","4","5","6","7","8","9","10"]
     
+    var collectionFirstIndicator    = ["Right","Wrong","Right","Wrong","Wrong","Wrong","Wrong","Right","Right","Right"]
+    var collectionSecondIndicator   = ["","Wrong","Wrong","Right","Right","Right","Right","Right","Right","Right"]
     
+    var collectionFirstScore        = ["10","1","8","0","3","2","1","7","6","5"]
+    var collectionSecondScore       = ["","2","0","7","7","7","8","2","4","4"]
     
-   
-
-    
-    
-//    var valueNumberData2 = ["6","6","6","6"]
     var array  : [[String]] = []
     
     func getData(Index : Int) -> [Statistic]{

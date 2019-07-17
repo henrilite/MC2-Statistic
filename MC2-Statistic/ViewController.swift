@@ -65,6 +65,13 @@ class ViewController: UIViewController {
         button5Tapped.backgroundColor = #colorLiteral(red: 0.1058823529, green: 0.1058823529, blue: 0.2039215686, alpha: 1)
         buttonAllTapped.backgroundColor = #colorLiteral(red: 0.1058823529, green: 0.1058823529, blue: 0.2039215686, alpha: 1)
         
+        button1Tapped.tintColor         = .black
+        button2Tapped.tintColor         = #colorLiteral(red: 1, green: 1, blue: 1, alpha: 0.1180436644)
+        button3Tapped.tintColor         = #colorLiteral(red: 1, green: 1, blue: 1, alpha: 0.1180436644)
+        button4Tapped.tintColor         = #colorLiteral(red: 1, green: 1, blue: 1, alpha: 0.1180436644)
+        button5Tapped.tintColor         = #colorLiteral(red: 1, green: 1, blue: 1, alpha: 0.1180436644)
+        buttonAllTapped.tintColor       = #colorLiteral(red: 1, green: 1, blue: 1, alpha: 0.1180436644)
+        
         handlingView.backgroundColor = #colorLiteral(red: 0.137254902, green: 0.137254902, blue: 0.2509803922, alpha: 1)
         handlingView.layer.cornerRadius = 20
         
@@ -101,6 +108,12 @@ class ViewController: UIViewController {
         button4Tapped.backgroundColor = #colorLiteral(red: 0.1058823529, green: 0.1058823529, blue: 0.2039215686, alpha: 1)
         button5Tapped.backgroundColor = #colorLiteral(red: 0.1058823529, green: 0.1058823529, blue: 0.2039215686, alpha: 1)
         buttonAllTapped.backgroundColor = #colorLiteral(red: 0.1058823529, green: 0.1058823529, blue: 0.2039215686, alpha: 1)
+        button1Tapped.tintColor         = .black
+        button2Tapped.tintColor         = #colorLiteral(red: 1, green: 1, blue: 1, alpha: 0.1180436644)
+        button3Tapped.tintColor         = #colorLiteral(red: 1, green: 1, blue: 1, alpha: 0.1180436644)
+        button4Tapped.tintColor         = #colorLiteral(red: 1, green: 1, blue: 1, alpha: 0.1180436644)
+        button5Tapped.tintColor         = #colorLiteral(red: 1, green: 1, blue: 1, alpha: 0.1180436644)
+        buttonAllTapped.tintColor       = #colorLiteral(red: 1, green: 1, blue: 1, alpha: 0.1180436644)
 //        displayData(statisticModel.getData(Index: 0))
 //        detailTableView.reloadData()
         rightHandlingCount.text = statisticModel.valueNumberData[0][2]
@@ -116,6 +129,12 @@ class ViewController: UIViewController {
         button4Tapped.backgroundColor = #colorLiteral(red: 0.1058823529, green: 0.1058823529, blue: 0.2039215686, alpha: 1)
         button5Tapped.backgroundColor = #colorLiteral(red: 0.1058823529, green: 0.1058823529, blue: 0.2039215686, alpha: 1)
         buttonAllTapped.backgroundColor = #colorLiteral(red: 0.1058823529, green: 0.1058823529, blue: 0.2039215686, alpha: 1)
+        button1Tapped.tintColor         = #colorLiteral(red: 1, green: 1, blue: 1, alpha: 0.1180436644)
+        button2Tapped.tintColor         = .black
+        button3Tapped.tintColor         = #colorLiteral(red: 1, green: 1, blue: 1, alpha: 0.1180436644)
+        button4Tapped.tintColor         = #colorLiteral(red: 1, green: 1, blue: 1, alpha: 0.1180436644)
+        button5Tapped.tintColor         = #colorLiteral(red: 1, green: 1, blue: 1, alpha: 0.1180436644)
+        buttonAllTapped.tintColor       = #colorLiteral(red: 1, green: 1, blue: 1, alpha: 0.1180436644)
 //        displayData(statisticModel.getData(Index: 1))
 //        detailTableView.reloadData()
         rightHandlingCount.text = statisticModel.valueNumberData[1][2]
@@ -131,6 +150,12 @@ class ViewController: UIViewController {
         button4Tapped.backgroundColor = #colorLiteral(red: 0.1058823529, green: 0.1058823529, blue: 0.2039215686, alpha: 1)
         button5Tapped.backgroundColor = #colorLiteral(red: 0.1058823529, green: 0.1058823529, blue: 0.2039215686, alpha: 1)
         buttonAllTapped.backgroundColor = #colorLiteral(red: 0.1058823529, green: 0.1058823529, blue: 0.2039215686, alpha: 1)
+        button1Tapped.tintColor         = #colorLiteral(red: 1, green: 1, blue: 1, alpha: 0.1180436644)
+        button2Tapped.tintColor         = #colorLiteral(red: 1, green: 1, blue: 1, alpha: 0.1180436644)
+        button3Tapped.tintColor         = .black
+        button4Tapped.tintColor         = #colorLiteral(red: 1, green: 1, blue: 1, alpha: 0.1180436644)
+        button5Tapped.tintColor         = #colorLiteral(red: 1, green: 1, blue: 1, alpha: 0.1180436644)
+        buttonAllTapped.tintColor       = #colorLiteral(red: 1, green: 1, blue: 1, alpha: 0.1180436644)
 //        displayData(statisticModel.getData(Index: 2))
 //        detailTableView.reloadData()
         rightHandlingCount.text = statisticModel.valueNumberData[2][2]
@@ -146,6 +171,12 @@ class ViewController: UIViewController {
         button4Tapped.backgroundColor = .white
         button5Tapped.backgroundColor = #colorLiteral(red: 0.1058823529, green: 0.1058823529, blue: 0.2039215686, alpha: 1)
         buttonAllTapped.backgroundColor = #colorLiteral(red: 0.1058823529, green: 0.1058823529, blue: 0.2039215686, alpha: 1)
+        button1Tapped.tintColor         = #colorLiteral(red: 1, green: 1, blue: 1, alpha: 0.1180436644)
+        button2Tapped.tintColor         = #colorLiteral(red: 1, green: 1, blue: 1, alpha: 0.1180436644)
+        button3Tapped.tintColor         = #colorLiteral(red: 1, green: 1, blue: 1, alpha: 0.1180436644)
+        button4Tapped.tintColor         = .black
+        button5Tapped.tintColor         = #colorLiteral(red: 1, green: 1, blue: 1, alpha: 0.1180436644)
+        buttonAllTapped.tintColor       = #colorLiteral(red: 1, green: 1, blue: 1, alpha: 0.1180436644)
 //        displayData(statisticModel.getData(Index: 3))
 //        detailTableView.reloadData()
         rightHandlingCount.text = statisticModel.valueNumberData[3][2]
@@ -162,6 +193,12 @@ class ViewController: UIViewController {
         button4Tapped.backgroundColor = #colorLiteral(red: 0.1058823529, green: 0.1058823529, blue: 0.2039215686, alpha: 1)
         button5Tapped.backgroundColor = .white
         buttonAllTapped.backgroundColor = #colorLiteral(red: 0.1058823529, green: 0.1058823529, blue: 0.2039215686, alpha: 1)
+        button1Tapped.tintColor         = #colorLiteral(red: 1, green: 1, blue: 1, alpha: 0.1180436644)
+        button2Tapped.tintColor         = #colorLiteral(red: 1, green: 1, blue: 1, alpha: 0.1180436644)
+        button3Tapped.tintColor         = #colorLiteral(red: 1, green: 1, blue: 1, alpha: 0.1180436644)
+        button4Tapped.tintColor         = #colorLiteral(red: 1, green: 1, blue: 1, alpha: 0.1180436644)
+        button5Tapped.tintColor         = .black
+        buttonAllTapped.tintColor       = #colorLiteral(red: 1, green: 1, blue: 1, alpha: 0.1180436644)
 //        displayData(statisticModel.getData(Index: 4))
 //        detailTableView.reloadData()
         rightHandlingCount.text = statisticModel.valueNumberData[4][2]
@@ -177,6 +214,12 @@ class ViewController: UIViewController {
         button4Tapped.backgroundColor = #colorLiteral(red: 0.1058823529, green: 0.1058823529, blue: 0.2039215686, alpha: 1)
         button5Tapped.backgroundColor = #colorLiteral(red: 0.1058823529, green: 0.1058823529, blue: 0.2039215686, alpha: 1)
         buttonAllTapped.backgroundColor = .white
+        button1Tapped.tintColor         = #colorLiteral(red: 1, green: 1, blue: 1, alpha: 0.1180436644)
+        button2Tapped.tintColor         = #colorLiteral(red: 1, green: 1, blue: 1, alpha: 0.1180436644)
+        button3Tapped.tintColor         = #colorLiteral(red: 1, green: 1, blue: 1, alpha: 0.1180436644)
+        button4Tapped.tintColor         = #colorLiteral(red: 1, green: 1, blue: 1, alpha: 0.1180436644)
+        button5Tapped.tintColor         = #colorLiteral(red: 1, green: 1, blue: 1, alpha: 0.1180436644)
+        buttonAllTapped.tintColor       = .black
 //        displayData(statisticModel.getData(Index: 5))
 //        detailTableView.reloadData()
         rightHandlingCount.text = String(Int(statisticModel.valueNumberData[0][2])! + Int(statisticModel.valueNumberData[1][2])! + Int(statisticModel.valueNumberData[2][2])! + Int(statisticModel.valueNumberData[3][2])! + Int(statisticModel.valueNumberData[4][2])!)
@@ -193,9 +236,6 @@ class ViewController: UIViewController {
             
             self.popupView.layer.cornerRadius = 24.0
             self.popupView.center = self.view.center
-        
-        
-        
     }
     
     @IBAction func donePopoverButton(_ sender: Any) {
@@ -233,7 +273,7 @@ class ViewController: UIViewController {
 
 extension ViewController: UICollectionViewDataSource, UICollectionViewDelegate{
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return collectionNumber.count
+        return statisticModel.collectionNumber.count
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
@@ -241,21 +281,24 @@ extension ViewController: UICollectionViewDataSource, UICollectionViewDelegate{
         
         popupCell.backgroundColor = #colorLiteral(red: 0.137254902, green: 0.137254902, blue: 0.2509803922, alpha: 1)
         popupCell.layer.cornerRadius = 20
-//        popupCell.layer.borderWidth = 1
-        popupCell.popupNumberLabel.text = collectionNumber[indexPath.row]
+        popupCell.swingDivider.image = UIImage(named: "Divider")
+        popupCell.scoreDivider.image = UIImage(named: "Divider")
         
-        popupCell.swingFirstIndicator.text = "S"
-        popupCell.swingFirstIndicator.textColor = .white
+//        popupCell.swingFirstIndicator.textColor     = .white
+//        popupCell.swingSecondIndicator.textColor    = .white
+        popupCell.swingFirstScore.textColor         = .white
+        popupCell.swingSecondScore.textColor        = .white
         
-        popupCell.swingSecondIndicator.text = "J"
-        popupCell.swingSecondIndicator.textColor = .white
+        popupCell.popupNumberLabel.text = statisticModel.collectionNumber[indexPath.row]
         
-        popupCell.swingFirstScore.text = "1"
-        popupCell.swingFirstScore.textColor = .white
+//        popupCell.swingFirstIndicator.text = statisticModel.collectionFirstIndicator[indexPath.row]
+//        popupCell.swingSecondIndicator.text = statisticModel.collectionSecondIndicator[indexPath.row]
         
-        popupCell.swingSecondScore.text = "2"
-        popupCell.swingSecondScore.textColor = .white
+        popupCell.swingFirstIndicator.image = UIImage(named: statisticModel.collectionFirstIndicator[indexPath.row])
+        popupCell.swingSecondIndicator.image = UIImage(named: statisticModel.collectionSecondIndicator[indexPath.row])
         
+        popupCell.swingFirstScore.text = statisticModel.collectionFirstScore[indexPath.row]
+        popupCell.swingSecondScore.text = statisticModel.collectionSecondScore[indexPath.row]
         
         return popupCell
     }

@@ -17,8 +17,8 @@ class PopupCollectionViewCell: UICollectionViewCell {
     @IBOutlet weak var swingDivider: UIImageView!
     @IBOutlet weak var scoreDivider: UIImageView!
     
-    @IBOutlet weak var swingFirstIndicator: UILabel!
-    @IBOutlet weak var swingSecondIndicator: UILabel!
+    @IBOutlet weak var swingFirstIndicator: UIImageView!
+    @IBOutlet weak var swingSecondIndicator: UIImageView!
     
     @IBOutlet weak var swingFirstScore: UILabel!
     @IBOutlet weak var swingSecondScore: UILabel!

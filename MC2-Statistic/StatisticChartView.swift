@@ -82,7 +82,7 @@ class StatisticChartView : MacawView {
             item.contentsVar.animation(delay:0) { t in
                 let height  = adjustData[i] * t
                 let rect    = Rect( x: Double(i) * 50 + 20, y: 210 - height, w: 30, h: height)
-                let flag:Double = i == flagColor ? 0.60 : 0.29
+                let flag:Double = i == flagColor ? 1 : 0.29
                 let fill = LinearGradient(degree: 90, from: palette[0].with(a: flagColor > items.count ? 1 : flag), to: palette[0].with(a: flagColor > items.count ? 1 : flag))
                 return [rect.fill(with: fill)]
             }
